@@ -172,23 +172,20 @@ img {
   width: 800px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-between;
-  margin: 20px 0;
+  margin: 15px auto;
 }
-.nav-container nav {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-}
-.nav-container nav a {
+.nav-container a {
   text-decoration: none;
   color: black;
+  font-size: 1.5rem;
+  margin: 15px;
 }
 .border {
   width: 100%;
   height: 5px;
-  border-bottom: 1px dashed lightgray;
+  border-bottom: 2px dashed lightgray;
   display: inline-block;
 }
 .footer {
@@ -203,7 +200,7 @@ img {
   padding: 20px;
 }
 .home header {
-  border-bottom: 2px dashed gray;
+  border-bottom: 2px dashed lightgray;
 }
 .home header p {
   margin-bottom: 15px;
