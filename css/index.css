@@ -191,6 +191,25 @@ img {
   color: black;
   font-size: 1.5rem;
   margin: 15px;
+  border-radius: 20px;
+  padding: 5px;
+}
+.nav-container a:hover {
+  animation: animate 2.5s linear infinite;
+}
+@keyframes animate {
+  0% {
+    box-shadow: 0 0 0 0 #FEBB4F;
+  }
+  20% {
+    box-shadow: 0 0 0 10px #fed28a;
+  }
+  60% {
+    box-shadow: 0 0 0 0 #fff0d8;
+  }
+  80% {
+    box-shadow: 0 0 0 0 #FFFFFF;
+  }
 }
 .border {
   width: 100%;
@@ -216,12 +235,41 @@ img {
 }
 .home header {
   border-bottom: 2px dashed lightgray;
+  padding-bottom: 30px;
 }
 .home header p {
   margin-bottom: 15px;
 }
 .home header img {
   margin-bottom: 15px;
+}
+.home header .package-link {
+  text-align: center;
+}
+.home header .package-link a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  padding: 10px;
+  background: #FEBB4F;
+  border-radius: 20px;
+}
+.home header .package-link a:hover {
+  animation: animate 2.5s linear 2;
+}
+@keyframes animate {
+  0% {
+    box-shadow: 0 0 0 0 #FEBB4F;
+  }
+  20% {
+    box-shadow: 0 0 0 10px #fed28a;
+  }
+  60% {
+    box-shadow: 0 0 0 0 #fff0d8;
+  }
+  80% {
+    box-shadow: 0 0 0 0 #FFFFFF;
+  }
 }
 .home .content-section {
   margin: 30px 0;
@@ -320,4 +368,21 @@ img {
   justify-content: center;
   height: 50px;
   font-size: 2rem;
+}
+.home .content-pick .destination .btn:hover {
+  animation: animate 2.5s linear 1;
+}
+@keyframes animate {
+  0% {
+    box-shadow: 0 0 0 0 #FEBB4F;
+  }
+  20% {
+    box-shadow: 0 0 0 10px #fed28a;
+  }
+  60% {
+    box-shadow: 0 0 0 0 #fff0d8;
+  }
+  80% {
+    box-shadow: 0 0 0 0 #FFFFFF;
+  }
 }

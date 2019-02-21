@@ -19,4 +19,33 @@
     justify-content: center;
     height: 50px;
     font-size: 2rem;
-}//sign up buttons
+}//sign up button parametric
+
+.a-tag (@text-color) {
+    text-decoration: none;
+    color: @text-color;
+}// a default styles
+
+.pulse-item(@reps) {
+
+    &:hover {
+        animation: animate 2.5s linear @reps;
+        @keyframes animate {
+            0% {
+                box-shadow: 0 0 0 0 #FEBB4F;
+            }
+
+            20% {
+                box-shadow: 0 0 0 10px #fed28a;
+            }
+
+            60% {
+                box-shadow: 0 0 0 0 #fff0d8;
+            }
+
+            80% {
+                box-shadow: 0 0 0 0 #FFFFFF;
+            }
+        }//keyframe end
+    }//hover status
+}//pulse animation
