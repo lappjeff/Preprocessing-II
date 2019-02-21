@@ -195,6 +195,7 @@ img {
   padding: 5px;
 }
 .nav-container a:hover {
+  cursor: pointer;
   animation: animate 2.5s linear infinite;
 }
 @keyframes animate {
@@ -255,6 +256,7 @@ img {
   border-radius: 20px;
 }
 .home header .package-link a:hover {
+  cursor: pointer;
   animation: animate 2.5s linear 2;
 }
 @keyframes animate {
@@ -370,6 +372,7 @@ img {
   font-size: 2rem;
 }
 .home .content-pick .destination .btn:hover {
+  cursor: pointer;
   animation: animate 2.5s linear 1;
 }
 @keyframes animate {
