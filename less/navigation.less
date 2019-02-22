@@ -1,1 +1,33 @@
-// Navigation Styles here
+.nav-container {
+    max-width: 800px;
+    margin: 0 auto;
+    .flex();
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px auto 10px auto;
+
+    @media @mobile {
+        flex-direction: column;
+    }
+
+    nav {
+        @media @mobile {
+            padding-top: 5px;
+        }
+    }
+    a {
+        .a-tag(black);
+        font-size: 1.5rem;
+        margin: 15px;
+        border-radius: 20px;
+        padding: 5px;
+        .pulse-item(infinite);
+    }
+}
+
+.border {
+    width: 100%;
+    height: 5px;
+    border-bottom: 2px dashed lightgray;
+    display: inline-block;
+}
